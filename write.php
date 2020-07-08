@@ -24,7 +24,7 @@ if ($token !=sha1(session_id())){
     exit();
 }
 
-//名前にクッキーをセット
+//名前にクッキーをセットaaaaaa
 setcookie('name', $name, time() + 60 * 60 * 24 * 30);
 
 //データベースに接続
